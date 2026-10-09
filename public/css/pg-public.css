@@ -2,3 +2,37 @@
  * All of the CSS for your public-facing functionality should be
  * included in this file.
  */
+
+.pg-result {
+	border-left: 4px solid #949494;
+	margin: 1.5rem 0;
+	padding: 0.25rem 0 0.25rem 1.25rem;
+}
+
+.pg-result__heading {
+	margin: 0 0 0.5rem;
+}
+
+.pg-result__amount {
+	font-weight: 600;
+	margin: 0 0 0.5rem;
+}
+
+.pg-result__body {
+	margin: 0 0 0.5rem;
+}
+
+.pg-result__actions {
+	margin: 0;
+}
+
+.pg-result--paid,
+.pg-result--cancelled {
+	border-left-color: #007017;
+}
+
+.pg-result--unpaid,
+.pg-result--invalid,
+.pg-result--error {
+	border-left-color: #b32d2e;
+}
