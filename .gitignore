@@ -1,0 +1,22 @@
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor and IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Logs and tool caches
+*.log
+.phpunit.result.cache
+
+# Local environment files
+.env
+.env.local
+
+# Note: the Stripe PHP SDK under vendor/ is intentionally committed so
+# the plugin runs without a Composer install step.

@@ -1,0 +1,6 @@
+# Normalise line endings so the plugin behaves the same on every platform.
+* text=auto eol=lf
+
+# Keep generated plugin archives free of repository-only files.
+.gitattributes export-ignore
+.gitignore      export-ignore
